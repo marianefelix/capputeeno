@@ -9,6 +9,7 @@ export const defaultTheme: DefaultTheme = {
     text: {
       title: '#123952',
       text: '#617480',
+      support: '#737380',
     },
     shape: {
       primary: '#FFFFFF',

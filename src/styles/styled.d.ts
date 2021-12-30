@@ -10,6 +10,7 @@ declare module 'styled-components' {
       text: {
         title: string;
         text: string;
+        support: string;
       };
       shape: {
         primary: string;

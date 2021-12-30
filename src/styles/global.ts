@@ -11,13 +11,20 @@ export default createGlobalStyle`
     height: 100vh;
   }
 
-  body {
+  border-style, input {
     font-family: 'Saira', sans-serif;
+  }
+
+  body {
     background: ${({ theme }) => theme.palette.shape.grey};
   }
 
   button {
     cursor: pointer;
     border: 0;
+  }
+
+  input {
+    outline: none;
   }
 `;
