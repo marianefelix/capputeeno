@@ -11,8 +11,8 @@ export default createGlobalStyle`
     height: 100vh;
   }
 
-  border-style, input {
-    font-family: 'Saira', sans-serif;
+  body, button, input {
+    font: 400 1rem 'Saira', sans-serif;
   }
 
   body {
@@ -26,5 +26,17 @@ export default createGlobalStyle`
 
   input {
     outline: none;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    html {
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+    html {
+      font-size: 83%;
+    }
   }
 `;

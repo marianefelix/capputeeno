@@ -2,19 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.nav`
   width: 100%;
-  height: 80px;
+  padding: 1.3rem 0;
   background-color: ${({ theme }) => theme.palette.shape.primary};
 `;
 
 export const ItemsList = styled.ul`
-  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 
   list-style-type: none;
-
-  padding: 0 10rem;
 `;
 
 export const Item = styled.li`

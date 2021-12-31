@@ -1,6 +1,12 @@
 import { DefaultTheme } from 'styled-components';
 
 export const defaultTheme: DefaultTheme = {
+  breakpoints: {
+    sm: '600px',
+    md: '960px',
+    lg: '1280px',
+    xl: '1920px',
+  },
   palette: {
     brand: {
       blue: '#115D8C',

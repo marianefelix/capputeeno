@@ -18,6 +18,22 @@ export const Container = styled.div`
     width: 24px;
     height: 24px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    width: 18rem;
+
+    & svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+    & svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
 `;
 
 export const Input = styled.input`

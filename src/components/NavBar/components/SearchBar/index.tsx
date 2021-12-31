@@ -3,7 +3,7 @@ import { Container, Input } from './styles';
 
 export function SearchBar() {
   return (
-    <Container role="searchbox">
+    <Container aria-label="Procurando por algo específico?" role="searchbox">
       <Input
         role="search"
         type="text"
